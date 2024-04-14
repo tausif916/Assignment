@@ -1,0 +1,90 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    width: 480px;
+    height: 600px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;    
+}
+
+.card-image{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 150px;
+    width: 150px; 
+    border-radius: 50%;
+    }
+
+.profile-img{
+    height: 100%;
+    width: 100%;    
+    box-shadow: 0 0 20px #4070f4;
+    border-radius: 50%;
+    
+}
+
+.profile-img:hover{
+    box-shadow: 0 0 50px #4070f4;
+    transition: 0.5s;    
+}
+
+    
+.aboutme{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.link{
+    height: 34px;
+    width: 34px;
+    margin: 0 12px;
+    background-color: #4070f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover{
+    box-shadow: 0 0 30px #4070f4;
+    transition: 0.5;
+    transform: scale(1.2)translateY(-5px);
+}
+
