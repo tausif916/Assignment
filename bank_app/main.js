@@ -29,14 +29,14 @@ class BankAccount {
     }
   }
   
-  // Example usage:
-  const myAccount = new BankAccount('123456789', 'John Doe', 1000);
+  // Example:
+  const myAccount = new BankAccount('987654', 'Tausif Ismail', 2000);
   
   console.log(`Account holder: ${myAccount.ownerName}`);
-  myAccount.getBalance(); // Current balance: 1000
+  myAccount.getBalance(); 
   
-  myAccount.deposit(500); // 500 deposited successfully. Current balance: 1500
-  myAccount.withdraw(200); // 200 withdrawn successfully. Current balance: 1300
+  myAccount.deposit(500); 
+  myAccount.withdraw(1000); 
   
-  myAccount.getBalance(); // Current balance: 1300
+  myAccount.getBalance(); 
   
